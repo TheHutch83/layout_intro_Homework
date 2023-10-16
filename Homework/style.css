@@ -1,0 +1,116 @@
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.8rem;
+}
+
+.Contact_Information {
+  /* display: flex; it wrapped the text but looked unpleasant  */
+  background-color: #f4e8c17c;
+  width: 100%;
+  padding: 10px;
+}
+
+/* .personal-information {
+  float: left;
+  margin: 0 10px 10px 0;
+} 
+Did not work as expected, 
+I think because it needs to be a p. 
+too much info for it to work - email and the like */
+
+.Personal_Profile {
+  background-color: #a0c1b87c;
+  line-height: 1.5;
+  justify-content: space-evenly;
+  padding: 10px;
+  /* margin: 1em; 
+  don't like the formatting, check how to indent the text within the box */
+}
+
+.Career_Summary {
+  background-color: #709fb07c;
+  height: auto;
+  padding: 10px;
+}
+
+/*.Police_Qualifications ul li:nth(3n + 2) {
+  background-color: #ff7e5f;
+  color: #edfafd;
+  height: auto;
+} */
+
+.Education_Summary {
+  background-color: #726a957c;
+  height: fit-content;
+  padding: 10px;
+}
+
+.Hobbies_Interests_Achievements {
+  background-color: #351f397c;
+  height: auto;
+  padding: 10px;
+}
+
+.Rhino_Img {
+  display: flex;
+}
+/*  W3 would not allow a p as a child of <picture>. 
+So while it looked like it worked W3 did not */
+
+a[href='https://uk.linkedin.com/in/david-hutcheson-893b89280']
+{
+  color: #4c586f;
+}
+
+a[href^="mailto"] {
+  color: #ab3e16;
+}
+
+.Police_Qualifications li:nth-child(even) {
+  color: red;
+}
+
+.Police_Qualifications li {
+  list-style: none;
+}
+/* turns off the bullet on a list item */
+.School li:nth-child(2n + 3) {
+  color: #efaa52;
+}
+
+.College li {
+  list-style-type: upper-roman;
+}
+
+/*.social-media-menu{
+position: fixed;
+  bottom: 10%;
+  transform: translateY(-20%); 
+  looked odd, floating over the main text. 
+  Text will need editing to work ie a margin
+}*/
+
+.social-media-menu a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 10px;
+  height: 10px;
+  border: 1px solid #000;
+  padding: 1em;
+  color: #fff;
+  /* how to remove the bullet points.... 
+  more research needed. Changing to a 'p' removes, 
+  however box formatting fails */
+}
+
+.facebook {
+  background-color: #17a9fd;
+}
+
+.X {
+  background-color: #14171a;
+}

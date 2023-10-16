@@ -1,0 +1,13 @@
+header {
+  background-color: #f4e8c17c;
+  color: black;
+  width: auto;
+  position: sticky;
+  top: 0;
+  left: 1;
+  /* position: fixed; */
+}
+
+h1 {
+  color: #726a95;
+}
